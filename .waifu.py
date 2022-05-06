@@ -62,13 +62,13 @@ def COC7():
 
 #Analyze
 
-def plot(sum_list):
-    num_bins = 131
-    n, bins, patches = plt.hist(sum_list, num_bins, facecolor='blue', alpha=0.5)
-    plt.xlabel('SUM') 
-    plt.ylabel('COUNT') 
-    plt.title(r'.coc7')
-    plt.show()
+#def plot(sum_list):
+#    num_bins = 131
+#    n, bins, patches = plt.hist(sum_list, num_bins, facecolor='blue', alpha=0.5)
+#    plt.xlabel('SUM') 
+#    plt.ylabel('COUNT') 
+#    plt.title(r'.coc7')
+#    plt.show()
 
 # 掷骰
 
@@ -94,7 +94,7 @@ def roll():
     if (waifucount == 0):
         print("!!! NO WAIFU !!!")
     print("OVER 600: " + str(over600count))
-    plot(sum)# 绘制直方图
+#    plot(sum)# 绘制直方图
 
 # run
 roll()
