@@ -82,7 +82,7 @@ def roll():
         sum.append(player.SUM())
         if (player.SUM() >= 600):#总属性>=600
             over600count += 1
-            if (player.SIZ() <= 60):#体型<=60
+            if (player.SIZ() <= 50):#体型<=50
                 if (player.APP() >= 85):#外貌>=85
                     waifucount += 1
                     if (waifucount == 1):
