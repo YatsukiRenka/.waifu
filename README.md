@@ -1,5 +1,5 @@
 # .waifu
-Generate WAIFU based on COC7-Rule
+Generate your WAIFU based on COC7-Rule
 
 # Usage
 1. Download `.waifu.py`.
